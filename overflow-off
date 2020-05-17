@@ -1,0 +1,10 @@
+// ==UserScript==
+// @name         百度首页去除滚动条
+// @namespace    Foggy
+// @version      0.1
+// @author       羊驼的插件
+// @match        https://www.baidu.com/
+// @description  部分插件能够对百度首页优化，但没能找到去除滚动条的，自己试了一下，结果成了
+// ==/UserScript==
+document.getElementsByTagName('html')[0].style="overflow:hidden";
+document.getElementsByTagName('body')[0].style="overflow:hidden";
